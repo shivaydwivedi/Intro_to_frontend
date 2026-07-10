@@ -106,3 +106,6 @@ This repository uses the MIT License.
 
 
 ### Note: there will be new projects added to it overtime and feel free to suggest more enhancements here 
+
+
+### Star the repository if it helps you .
