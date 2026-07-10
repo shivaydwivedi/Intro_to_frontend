@@ -105,4 +105,4 @@ This repository uses the MIT License.
 
 
 
-### Note: there will be new projects added to it overtime . 
+### Note: there will be new projects added to it overtime and feel free to suggest more enhancements here 
