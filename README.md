@@ -101,4 +101,8 @@ Every project should be usable with a keyboard, include visible focus states, us
 
 ## License
 
-This repository uses the MIT License. See [LICENSE](LICENSE) for details.
+This repository uses the MIT License. 
+
+
+
+### Note: there will be new projects added to it overtime . 
