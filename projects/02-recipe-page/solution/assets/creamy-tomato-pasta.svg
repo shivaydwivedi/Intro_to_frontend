@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="600" viewBox="0 0 900 600" role="img" aria-labelledby="title desc">
+  <title id="title">Creamy tomato pasta illustration</title>
+  <desc id="desc">A warm illustration of pasta in tomato sauce served in a shallow bowl with basil leaves.</desc>
+  <rect width="900" height="600" fill="#f8efe4"/>
+  <circle cx="450" cy="315" r="220" fill="#f2d8bd"/>
+  <ellipse cx="450" cy="335" rx="300" ry="170" fill="#fff9f1"/>
+  <ellipse cx="450" cy="335" rx="240" ry="125" fill="#d85f3f"/>
+  <path d="M245 320c75-68 162-77 260-26 64 33 117 32 169-5" fill="none" stroke="#f8c987" stroke-width="34" stroke-linecap="round"/>
+  <path d="M255 368c88-58 184-63 288-14 55 26 103 21 153-17" fill="none" stroke="#ffd39a" stroke-width="28" stroke-linecap="round"/>
+  <path d="M300 282c64-31 138-24 221 20 59 31 113 30 160-2" fill="none" stroke="#ffe0ac" stroke-width="24" stroke-linecap="round"/>
+  <circle cx="355" cy="320" r="22" fill="#b93f2d"/>
+  <circle cx="515" cy="372" r="18" fill="#b93f2d"/>
+  <circle cx="585" cy="298" r="20" fill="#b93f2d"/>
+  <path d="M420 244c35-45 71-55 110-30-39 6-68 23-110 30z" fill="#4f8f4d"/>
+  <path d="M560 402c28-42 64-56 105-39-37 12-64 32-105 39z" fill="#4f8f4d"/>
+  <path d="M314 390c21-36 53-48 93-35-30 13-55 25-93 35z" fill="#4f8f4d"/>
+  <ellipse cx="450" cy="520" rx="180" ry="18" fill="#d6b99b" opacity="0.45"/>
+</svg>
