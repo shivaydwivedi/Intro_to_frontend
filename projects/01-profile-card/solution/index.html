@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Profile Card</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <main class="page-shell">
+    <article class="profile-card" aria-labelledby="profile-name">
+      <header class="profile-header">
+        <img
+          class="profile-avatar"
+          src="assets/avatar.svg"
+          alt="Illustrated portrait of Jordan Lee"
+          width="160"
+          height="160"
+        >
+
+        <div class="profile-intro">
+          <p class="profile-label">Frontend learner</p>
+          <h1 id="profile-name">Jordan Lee</h1>
+          <p class="profile-role">Junior frontend developer</p>
+        </div>
+      </header>
+
+      <p class="profile-bio">
+        Jordan builds accessible, responsive interfaces and enjoys turning clear
+        content into calm, useful web pages.
+      </p>
+
+      <section class="profile-details" aria-labelledby="details-heading">
+        <h2 id="details-heading">Profile Details</h2>
+
+        <p class="profile-location">
+          <span>Location:</span>
+          <span>Portland, Oregon</span>
+        </p>
+
+        <ul class="skill-list" aria-label="Frontend skills">
+          <li>Semantic HTML</li>
+          <li>CSS basics</li>
+          <li>Flexbox</li>
+          <li>Responsive design</li>
+        </ul>
+      </section>
+
+      <nav class="profile-links" aria-label="Profile links">
+        <a class="link-button link-button-primary" href="mailto:jordan.lee@example.com">Contact Jordan</a>
+        <a class="link-button" href="https://example.com">Portfolio</a>
+        <a class="link-button" href="https://example.com/github">GitHub</a>
+        <a class="link-button" href="mailto:jordan.lee@example.com">Email</a>
+      </nav>
+    </article>
+  </main>
+</body>
+</html>

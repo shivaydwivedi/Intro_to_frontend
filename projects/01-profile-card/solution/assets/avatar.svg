@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="320" viewBox="0 0 320 320" role="img" aria-labelledby="title desc">
+  <title id="title">Illustrated portrait of Jordan Lee</title>
+  <desc id="desc">A simple fictional avatar with short dark hair on a teal and cream background.</desc>
+  <rect width="320" height="320" rx="160" fill="#d9f1ec"/>
+  <circle cx="160" cy="134" r="70" fill="#ffd8ba"/>
+  <path d="M88 140c8-58 43-92 93-84 35 6 58 32 62 77-26-13-58-19-94-18-24 1-44 9-61 25z" fill="#28353d"/>
+  <path d="M80 294c12-67 47-101 80-101s68 34 80 101H80z" fill="#1f7a8c"/>
+  <path d="M120 213c12 19 25 28 40 28s28-9 40-28c24 15 38 43 45 81H75c7-38 21-66 45-81z" fill="#20566b"/>
+  <circle cx="134" cy="139" r="7" fill="#28353d"/>
+  <circle cx="186" cy="139" r="7" fill="#28353d"/>
+  <path d="M137 170c14 13 32 13 46 0" fill="none" stroke="#9c4f38" stroke-width="8" stroke-linecap="round"/>
+</svg>

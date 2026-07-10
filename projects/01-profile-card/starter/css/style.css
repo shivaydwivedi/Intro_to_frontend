@@ -1,0 +1,33 @@
+/* TODO: Add a border-box reset so padding and borders are easier to size. */
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  /* TODO: Add a comfortable background color and readable text color. */
+}
+
+.page-shell {
+  min-height: 100vh;
+  padding: 1rem;
+  /* TODO: Use Flexbox to center the card on the page. */
+}
+
+.profile-card {
+  /* TODO: Set a max-width, padding, background, border, and border-radius. */
+}
+
+.profile-header {
+  /* TODO: Use Flexbox to align the avatar and heading content. */
+}
+
+.profile-avatar {
+  max-width: 100%;
+  height: auto;
+  border-radius: 50%;
+}
+
+.profile-links {
+  /* TODO: Use Flexbox so links wrap neatly on small screens. */
+}
+
+/* TODO: Add clear hover and focus-visible styles for links. */

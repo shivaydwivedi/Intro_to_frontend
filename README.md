@@ -27,7 +27,7 @@ The projects move from static semantic HTML to interactive apps that use browser
 
 | # | Project | Main Focus | Status |
 |---|---|---|---|
-| 01 | Profile Card | Semantic HTML and basic CSS | Planned |
+| 01 | [Profile Card](projects/01-profile-card/) | Semantic HTML and basic CSS | Complete |
 | 02 | Recipe Page | Structured content and CSS fundamentals | Planned |
 | 03 | Product Landing Page | Flexbox and page sections | Planned |
 | 04 | Responsive Portfolio | CSS Grid and responsive layout | Planned |
@@ -87,7 +87,7 @@ Keeping these folders separate helps learners practice without accidentally rely
 
 ## Project Status
 
-All projects are currently Planned. Day 0 establishes the repository foundation only; no project implementations have been added yet.
+Project 01 is complete. The remaining projects are currently Planned.
 
 ## Contributing
 

@@ -1,6 +1,6 @@
 # Project Roadmap
 
-All projects are currently marked Planned. Project statuses should be updated as work begins and when a completed solution has been reviewed.
+Project 01 is Complete. The remaining projects are currently marked Planned.
 
 ## Status Markers
 
@@ -12,7 +12,7 @@ All projects are currently marked Planned. Project statuses should be updated as
 
 | # | Project | Status | Core Learning Objectives | Expected Technologies | Optional Stretch Goals |
 |---|---|---|---|---|---|
-| 01 | Profile Card | Planned | Use semantic HTML, structure personal profile content, apply basic typography, spacing, and color. | HTML, CSS | Add a theme variation, social links, or print-friendly styles. |
+| 01 | Profile Card | Complete | Use semantic HTML, structure personal profile content, apply basic typography, spacing, and color. | HTML, CSS | Add a theme variation, social links, or print-friendly styles. |
 | 02 | Recipe Page | Planned | Organize long-form content, style lists and sections, improve readability, and use meaningful document structure. | HTML, CSS | Add nutrition facts, preparation timing, or alternate layout styles. |
 | 03 | Product Landing Page | Planned | Build reusable page sections, align content with Flexbox, and create clear calls to action. | HTML, CSS | Add a pricing section, FAQ, or simple CSS-only interactions. |
 | 04 | Responsive Portfolio | Planned | Use CSS Grid, create responsive layouts, and organize project cards and profile content. | HTML, CSS | Add filter categories, dark mode, or a printable resume section. |
