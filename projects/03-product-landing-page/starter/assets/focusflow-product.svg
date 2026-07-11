@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="620" viewBox="0 0 900 620" role="img" aria-labelledby="title desc">
+  <title id="title">FocusFlow product concept illustration</title>
+  <desc id="desc">A calm illustration of a focus timer card with task blocks, check marks, and soft abstract shapes.</desc>
+  <rect width="900" height="620" fill="#eef7f4"/>
+  <circle cx="740" cy="120" r="80" fill="#f7c873"/>
+  <circle cx="160" cy="500" r="95" fill="#9ad4c2"/>
+  <rect x="190" y="105" width="520" height="390" rx="34" fill="#ffffff" stroke="#23443d" stroke-width="8"/>
+  <rect x="235" y="155" width="190" height="34" rx="17" fill="#23443d"/>
+  <rect x="235" y="220" width="220" height="22" rx="11" fill="#cfe9e1"/>
+  <rect x="235" y="264" width="320" height="22" rx="11" fill="#cfe9e1"/>
+  <circle cx="590" cy="248" r="78" fill="#e95f47"/>
+  <path d="M590 200v52l37 24" fill="none" stroke="#ffffff" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="235" y="335" width="350" height="44" rx="16" fill="#f4f8f6" stroke="#cfe0da" stroke-width="4"/>
+  <path d="M260 357l17 17 32-35" fill="none" stroke="#2f8d73" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="325" y="350" width="170" height="14" rx="7" fill="#78948d"/>
+  <rect x="235" y="400" width="350" height="44" rx="16" fill="#f4f8f6" stroke="#cfe0da" stroke-width="4"/>
+  <path d="M260 422l17 17 32-35" fill="none" stroke="#2f8d73" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="325" y="415" width="210" height="14" rx="7" fill="#78948d"/>
+</svg>

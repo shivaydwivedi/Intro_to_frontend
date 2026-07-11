@@ -1,0 +1,43 @@
+/* TODO: Add a border-box reset and useful CSS custom properties. */
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.5;
+  /* TODO: Add the main text and background colors. */
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.skip-link {
+  /* TODO: Hide the skip link until it receives keyboard focus. */
+}
+
+.site-header {
+  /* TODO: Style the header without creating a fake hamburger menu. */
+}
+
+.nav,
+.section-inner,
+main > section,
+footer {
+  width: min(100% - 2rem, 70rem);
+  margin-inline: auto;
+}
+
+.nav-list {
+  /* TODO: Use Flexbox so navigation links wrap naturally. */
+}
+
+.hero {
+  /* TODO: Create a prominent hero band with comfortable spacing. */
+}
+
+.button-group {
+  /* TODO: Use Flexbox for the primary and secondary calls to action. */
+}
+
+/* TODO: Add reusable card, pricing, FAQ, form, responsive, and focus styles. */
