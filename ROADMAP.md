@@ -1,6 +1,6 @@
 # Project Roadmap
 
-Projects 01, 02, 03, and 04 are Complete. The remaining projects are currently marked Planned.
+Projects 01, 02, 03, 04, and 05 are Complete. The remaining projects are currently marked Planned.
 
 ## Status Markers
 
@@ -16,7 +16,7 @@ Projects 01, 02, 03, and 04 are Complete. The remaining projects are currently m
 | 02 | Recipe Page | Complete | Organize long-form content, style lists and sections, improve readability, and use meaningful document structure. | HTML, CSS | Add nutrition facts, preparation timing, or alternate layout styles. |
 | 03 | Product Landing Page | Complete | Build reusable page sections, align content with Flexbox, and create clear calls to action. | HTML, CSS | Add a pricing section, FAQ, or simple CSS-only interactions. |
 | 04 | Responsive Portfolio | Complete | Use CSS Grid, create responsive layouts, and organize project cards and profile content. | HTML, CSS | Add filter categories, dark mode, or a printable resume section. |
-| 05 | Counter App | Planned | Write basic JavaScript, handle click events, update text content, and reset state. | HTML, CSS, JavaScript | Add step controls, min/max limits, or keyboard shortcuts. |
+| 05 | Counter App | Complete | Write basic JavaScript, handle click events, update text content, and reset state. | HTML, CSS, JavaScript | Add step controls, min/max limits, or keyboard shortcuts. |
 | 06 | Tip Calculator | Planned | Read input values, perform calculations, validate simple form data, and show helpful feedback. | HTML, CSS, JavaScript | Add bill splitting, currency formatting, or custom tip percentages. |
 | 07 | Quiz App | Planned | Manage question data, track score, update the DOM, and provide success and error feedback. | HTML, CSS, JavaScript | Add categories, progress indicators, or review mode. |
 | 08 | To-do List | Planned | Create, update, complete, delete, and persist tasks with localStorage. | HTML, CSS, JavaScript, localStorage | Add filters, due dates, drag ordering, or edit mode. |

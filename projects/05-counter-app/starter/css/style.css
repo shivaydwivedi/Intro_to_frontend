@@ -1,0 +1,175 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+:root {
+  --color-ink: #1b2430;
+  --color-muted: #5f6d7c;
+  --color-page: #f4f7f2;
+  --color-card: #ffffff;
+  --color-line: #d5ded1;
+  --color-primary: #2f6f5e;
+  --color-primary-dark: #214f43;
+  --color-warning: #8a4a1f;
+  --radius: 0.9rem;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.5;
+  color: var(--color-ink);
+  background: var(--color-page);
+}
+
+button,
+input {
+  font: inherit;
+}
+
+button {
+  min-height: 2.75rem;
+  border: 0;
+  border-radius: 999px;
+  padding: 0.7rem 1rem;
+  color: #ffffff;
+  background: var(--color-primary);
+  font-weight: 700;
+  cursor: pointer;
+}
+
+button:disabled {
+  cursor: not-allowed;
+  color: var(--color-muted);
+  background: #dce4d8;
+  border: 2px dashed var(--color-muted);
+}
+
+a:focus-visible,
+button:focus-visible,
+input:focus-visible {
+  outline: 3px solid var(--color-warning);
+  outline-offset: 4px;
+}
+
+.page-header,
+.app-shell {
+  width: min(100% - 2rem, 60rem);
+  margin-inline: auto;
+}
+
+.page-header {
+  padding: 3rem 0 1.5rem;
+}
+
+.eyebrow {
+  margin: 0 0 0.5rem;
+  color: var(--color-primary-dark);
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+h1,
+h2,
+p {
+  margin-top: 0;
+}
+
+h1 {
+  margin-bottom: 0.6rem;
+  font-size: clamp(2.3rem, 8vw, 4rem);
+  line-height: 1;
+}
+
+.counter-card {
+  display: grid;
+  gap: 1.25rem;
+  margin-bottom: 3rem;
+  padding: 1rem;
+  border: 1px solid var(--color-line);
+  border-radius: var(--radius);
+  background: var(--color-card);
+}
+
+.count-panel {
+  padding: 1.25rem;
+  border-radius: var(--radius);
+  text-align: center;
+  background: #eef5ec;
+}
+
+.count-label {
+  color: var(--color-muted);
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.count-value {
+  margin-bottom: 0;
+  font-size: clamp(4rem, 22vw, 7rem);
+  font-weight: 800;
+  line-height: 1;
+}
+
+.button-group,
+.limits-grid {
+  display: grid;
+  gap: 0.75rem;
+}
+
+.settings {
+  display: grid;
+  gap: 1rem;
+}
+
+.field {
+  display: grid;
+  gap: 0.35rem;
+}
+
+label {
+  font-weight: 800;
+}
+
+input {
+  width: 100%;
+  min-height: 2.75rem;
+  border: 2px solid var(--color-line);
+  border-radius: 0.7rem;
+  padding: 0.6rem 0.75rem;
+}
+
+input[aria-invalid="true"] {
+  border-color: #9f3412;
+  background: #fff7ed;
+}
+
+.message,
+.status-message {
+  margin-bottom: 0;
+  color: var(--color-muted);
+}
+
+.status-message {
+  padding: 0.85rem 1rem;
+  border-left: 4px solid var(--color-primary);
+  border-radius: 0.7rem;
+  background: #eef5ec;
+  font-weight: 700;
+}
+
+/* TODO: Add state classes for positive, negative, zero, and boundaries. */
+/* TODO: Use responsive rules so controls wrap or form columns appear at wider widths. */
+
+@media (min-width: 42rem) {
+  .button-group,
+  .limits-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .limits-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
