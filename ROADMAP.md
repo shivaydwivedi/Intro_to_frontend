@@ -1,6 +1,6 @@
 # Project Roadmap
 
-Projects 01 and 02 are Complete. The remaining projects are currently marked Planned.
+Projects 01, 02, and 03 are Complete. The remaining projects are currently marked Planned.
 
 ## Status Markers
 
@@ -14,7 +14,7 @@ Projects 01 and 02 are Complete. The remaining projects are currently marked Pla
 |---|---|---|---|---|---|
 | 01 | Profile Card | Complete | Use semantic HTML, structure personal profile content, apply basic typography, spacing, and color. | HTML, CSS | Add a theme variation, social links, or print-friendly styles. |
 | 02 | Recipe Page | Complete | Organize long-form content, style lists and sections, improve readability, and use meaningful document structure. | HTML, CSS | Add nutrition facts, preparation timing, or alternate layout styles. |
-| 03 | Product Landing Page | Planned | Build reusable page sections, align content with Flexbox, and create clear calls to action. | HTML, CSS | Add a pricing section, FAQ, or simple CSS-only interactions. |
+| 03 | Product Landing Page | Complete | Build reusable page sections, align content with Flexbox, and create clear calls to action. | HTML, CSS | Add a pricing section, FAQ, or simple CSS-only interactions. |
 | 04 | Responsive Portfolio | Planned | Use CSS Grid, create responsive layouts, and organize project cards and profile content. | HTML, CSS | Add filter categories, dark mode, or a printable resume section. |
 | 05 | Counter App | Planned | Write basic JavaScript, handle click events, update text content, and reset state. | HTML, CSS, JavaScript | Add step controls, min/max limits, or keyboard shortcuts. |
 | 06 | Tip Calculator | Planned | Read input values, perform calculations, validate simple form data, and show helpful feedback. | HTML, CSS, JavaScript | Add bill splitting, currency formatting, or custom tip percentages. |
