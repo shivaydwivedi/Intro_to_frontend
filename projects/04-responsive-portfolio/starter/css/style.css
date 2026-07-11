@@ -1,0 +1,38 @@
+/* TODO: Add a border-box reset and CSS custom properties. */
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.5;
+  /* TODO: Add readable colors and a calm page background. */
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.skip-link {
+  /* TODO: Hide the skip link until it receives keyboard focus. */
+}
+
+.site-header {
+  /* TODO: Style the header and account for internal anchor links. */
+}
+
+.nav,
+main > section,
+footer {
+  width: min(100% - 2rem, 70rem);
+  margin-inline: auto;
+}
+
+.nav-list {
+  /* TODO: Use Flexbox so navigation links wrap cleanly. */
+}
+
+.hero {
+  /* TODO: Use Grid at larger widths and a single-column layout on mobile. */
+}
+
+/* TODO: Add reusable section, card, project-grid, link, focus, responsive, and print styles. */

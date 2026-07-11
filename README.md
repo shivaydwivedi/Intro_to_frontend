@@ -30,7 +30,7 @@ The projects move from static semantic HTML to interactive apps that use browser
 | 01 | [Profile Card](projects/01-profile-card/) | Semantic HTML and basic CSS | Complete |
 | 02 | [Recipe Page](projects/02-recipe-page/) | Structured content and CSS fundamentals | Complete |
 | 03 | [Product Landing Page](projects/03-product-landing-page/) | Flexbox and page sections | Complete |
-| 04 | Responsive Portfolio | CSS Grid and responsive layout | Planned |
+| 04 | [Responsive Portfolio](projects/04-responsive-portfolio/) | CSS Grid and responsive layout | Complete |
 | 05 | Counter App | JavaScript fundamentals | Planned |
 | 06 | Tip Calculator | Inputs, calculations, and UI feedback | Planned |
 | 07 | Quiz App | DOM manipulation and state | Planned |
@@ -87,7 +87,7 @@ Keeping these folders separate helps learners practice without accidentally rely
 
 ## Project Status
 
-Projects 01, 02, and 03 are complete. The remaining projects are currently Planned.
+Projects 01, 02, 03, and 04 are complete. The remaining projects are currently Planned.
 
 ## Contributing
 
@@ -101,11 +101,11 @@ Every project should be usable with a keyboard, include visible focus states, us
 
 ## License
 
-This repository uses the MIT License. 
+This repository uses the MIT License.
 
 
 
-### Note: there will be new projects added to it overtime and feel free to suggest more enhancements here 
+### Note: there will be new projects added to it overtime and feel free to suggest more enhancements here
 
 
 ### Star the repository if it helps you .
