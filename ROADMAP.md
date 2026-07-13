@@ -1,6 +1,6 @@
 # Project Roadmap
 
-Projects 01, 02, 03, 04, 05, 06, and 07 are Complete. The remaining projects are currently marked Planned.
+Projects 01, 02, 03, 04, 05, 06, 07, and 08 are Complete. The remaining projects are currently marked Planned.
 
 ## Status Markers
 
@@ -19,7 +19,7 @@ Projects 01, 02, 03, 04, 05, 06, and 07 are Complete. The remaining projects are
 | 05 | Counter App | Complete | Write basic JavaScript, handle click events, update text content, and reset state. | HTML, CSS, JavaScript | Add step controls, min/max limits, or keyboard shortcuts. |
 | 06 | Tip Calculator | Complete | Read input values, perform calculations, validate simple form data, and show helpful feedback. | HTML, CSS, JavaScript | Add bill splitting, currency formatting, or custom tip percentages. |
 | 07 | Quiz App | Complete | Manage question data, track score, update the DOM, and provide success and error feedback. | HTML, CSS, JavaScript | Add categories, progress indicators, or review mode. |
-| 08 | To-do List | Planned | Create, update, complete, delete, and persist tasks with localStorage. | HTML, CSS, JavaScript, localStorage | Add filters, due dates, drag ordering, or edit mode. |
+| 08 | To-do List | Complete | Create, update, complete, delete, and persist tasks with localStorage. | HTML, CSS, JavaScript, localStorage | Add filters, due dates, drag ordering, or edit mode. |
 | 09 | Weather App | Planned | Fetch data from an API, handle loading and error states, and display asynchronous results. | HTML, CSS, JavaScript, Fetch API | Add unit toggles, saved locations, or geolocation with permission handling. |
 | 10 | GitHub Profile Finder | Planned | Query the GitHub API, render profile data, handle empty and error states, and communicate rate limits clearly. | HTML, CSS, JavaScript, Fetch API | Add recent repositories, local search history, or comparison view. |
 
