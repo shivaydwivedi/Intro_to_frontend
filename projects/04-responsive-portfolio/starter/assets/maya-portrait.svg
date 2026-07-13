@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="480" viewBox="0 0 480 480" role="img" aria-labelledby="title desc">
+  <title id="title">Illustrated portrait of Maya Chen</title>
+  <desc id="desc">A fictional portrait illustration of a junior frontend developer.</desc>
+  <rect width="480" height="480" rx="48" fill="#e9f1ff"/>
+  <circle cx="240" cy="170" r="86" fill="#f6c7a9"/>
+  <path d="M142 174c9-78 60-124 126-111 47 9 75 45 77 111-49-30-143-28-203 0z" fill="#27364a"/>
+  <circle cx="209" cy="166" r="8" fill="#18212b"/>
+  <circle cx="271" cy="166" r="8" fill="#18212b"/>
+  <path d="M212 205c19 17 39 17 58 0" fill="none" stroke="#8f4a34" stroke-width="9" stroke-linecap="round"/>
+  <path d="M120 430c17-98 64-150 120-150s103 52 120 150H120z" fill="#315f9f"/>
+  <path d="M168 430c8-65 36-102 72-102s64 37 72 102H168z" fill="#234574"/>
+</svg>

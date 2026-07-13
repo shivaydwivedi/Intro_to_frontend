@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Counter App Starter</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/app.js" defer></script>
+</head>
+<body>
+  <header class="page-header">
+    <p class="eyebrow">Project 05</p>
+    <h1>Counter App</h1>
+    <p>Practice JavaScript state, button events, DOM updates, and input validation.</p>
+  </header>
+
+  <main class="app-shell">
+    <section class="counter-card" aria-labelledby="counter-title">
+      <div class="counter-heading">
+        <h2 id="counter-title">Interactive counter</h2>
+        <p id="usage-note">Choose a step, set valid limits, then use the buttons to change the count.</p>
+      </div>
+
+      <div class="count-panel" aria-describedby="count-label">
+        <p id="count-label" class="count-label">Zero</p>
+        <p class="count-value" id="count-value">0</p>
+      </div>
+
+      <div class="button-group" aria-label="Counter controls">
+        <button type="button" id="decrease-button">Decrease</button>
+        <button type="button" id="reset-button">Reset</button>
+        <button type="button" id="increase-button">Increase</button>
+      </div>
+
+      <section class="settings" aria-labelledby="settings-title">
+        <h2 id="settings-title">Settings</h2>
+
+        <div class="field">
+          <label for="step-input">Step size</label>
+          <input type="number" id="step-input" min="1" step="1" value="1" aria-describedby="step-help step-message">
+          <p id="step-help">Use a positive whole number.</p>
+          <p class="message" id="step-message"></p>
+        </div>
+
+        <div class="limits-grid">
+          <div class="field">
+            <label for="minimum-input">Minimum</label>
+            <input type="number" id="minimum-input" step="1" value="-10" aria-describedby="minimum-help limit-message">
+            <p id="minimum-help">Use a whole number.</p>
+          </div>
+
+          <div class="field">
+            <label for="maximum-input">Maximum</label>
+            <input type="number" id="maximum-input" step="1" value="10" aria-describedby="maximum-help limit-message">
+            <p id="maximum-help">Must be greater than the minimum.</p>
+          </div>
+        </div>
+
+        <button type="button" id="apply-limits-button">Apply limits</button>
+        <p class="message" id="limit-message"></p>
+      </section>
+
+      <p class="status-message" id="status-message" role="status" aria-live="polite">
+        Count is ready. Current range is -10 to 10.
+      </p>
+    </section>
+  </main>
+</body>
+</html>

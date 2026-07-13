@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="420" viewBox="0 0 640 420" role="img" aria-labelledby="title desc">
+  <title id="title">Profile card project illustration</title>
+  <desc id="desc">A stylized profile card layout with an avatar, text rows, and link pills.</desc>
+  <rect width="640" height="420" rx="28" fill="#eef4ff"/>
+  <rect x="150" y="70" width="340" height="280" rx="28" fill="#ffffff" stroke="#d6deea" stroke-width="6"/>
+  <circle cx="320" cy="150" r="54" fill="#f6c7a9"/>
+  <rect x="235" y="220" width="170" height="18" rx="9" fill="#315f9f"/>
+  <rect x="205" y="255" width="230" height="14" rx="7" fill="#9aa9bb"/>
+  <rect x="220" y="295" width="82" height="28" rx="14" fill="#e9f1ff"/>
+  <rect x="314" y="295" width="106" height="28" rx="14" fill="#e9f1ff"/>
+</svg>

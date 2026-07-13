@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Maya Chen | Responsive Portfolio</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <header class="site-header">
+    <nav class="nav" aria-label="Primary navigation">
+      <a class="brand" href="#top" aria-label="Maya Chen portfolio home">
+        <span class="brand-mark" aria-hidden="true">MC</span>
+        <span>Maya Chen</span>
+      </a>
+      <ul class="nav-list">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#journey">Journey</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero section" id="top">
+      <div class="hero-copy">
+        <p class="eyebrow">Fictional portfolio</p>
+        <h1>Maya Chen</h1>
+        <p class="role">Junior Frontend Developer in Bengaluru, India</p>
+        <p class="intro">
+          Maya is a fictional frontend learner who enjoys building accessible,
+          responsive interfaces with clear HTML, thoughtful CSS, and simple
+          interaction patterns.
+        </p>
+        <p class="availability">
+          Demonstration availability note: this portfolio is practice content,
+          not a real job-seeking profile.
+        </p>
+        <div class="link-row" aria-label="Hero links">
+          <a class="button button-primary" href="#projects">View selected projects</a>
+          <a class="button button-secondary" href="mailto:maya.chen@example.com">Email Maya</a>
+        </div>
+      </div>
+      <img class="hero-portrait" src="assets/maya-portrait.svg" alt="Illustrated portrait of fictional developer Maya Chen" width="480" height="480">
+    </section>
+
+    <section class="section split-section" id="about">
+      <div>
+        <p class="eyebrow">About</p>
+        <h2>Simple interfaces with accessibility in mind.</h2>
+      </div>
+      <div class="stack">
+        <p>
+          Maya is a fictional junior frontend developer learning to create web
+          pages that are easy to navigate, readable on different screens, and
+          understandable for people using keyboards or assistive technology.
+        </p>
+        <p>
+          Her current focus is semantic HTML, responsive CSS, Grid layouts,
+          accessible navigation, and beginner-friendly JavaScript fundamentals.
+        </p>
+      </div>
+    </section>
+
+    <section class="section" id="skills">
+      <div class="section-heading">
+        <p class="eyebrow">Skills</p>
+        <h2>Grouped learning areas.</h2>
+        <p>No progress bars or fake ratings, just clear areas of practice.</p>
+      </div>
+      <div class="skills-grid">
+        <section class="card" aria-labelledby="core-skills">
+          <h3 id="core-skills">Core Structure</h3>
+          <ul class="tag-list">
+            <li>Semantic HTML</li>
+            <li>Accessible landmarks</li>
+            <li>Readable content hierarchy</li>
+          </ul>
+        </section>
+        <section class="card" aria-labelledby="style-skills">
+          <h3 id="style-skills">CSS Layout</h3>
+          <ul class="tag-list">
+            <li>CSS Grid</li>
+            <li>Flexbox</li>
+            <li>Responsive design</li>
+          </ul>
+        </section>
+        <section class="card" aria-labelledby="tool-skills">
+          <h3 id="tool-skills">Tools and Next Steps</h3>
+          <ul class="tag-list">
+            <li>Git and GitHub</li>
+            <li>JavaScript fundamentals</li>
+            <li>Browser developer tools</li>
+          </ul>
+        </section>
+      </div>
+    </section>
+
+    <section class="section" id="projects">
+      <div class="section-heading">
+        <p class="eyebrow">Selected Projects</p>
+        <h2>Practice projects with reusable cards.</h2>
+      </div>
+      <div class="project-grid">
+        <article class="project-card">
+          <img src="assets/project-profile-card.svg" alt="Illustration of a profile card layout" width="640" height="420">
+          <div class="project-content">
+            <h3>Profile Card</h3>
+            <p>A compact profile component focused on semantic HTML, spacing, and visual hierarchy.</p>
+            <ul class="tag-list">
+              <li>HTML</li>
+              <li>CSS</li>
+            </ul>
+            <div class="project-links">
+              <a href="../../01-profile-card/solution/index.html">View project</a>
+              <span>Code link unavailable in this demo</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <img src="assets/project-recipe-page.svg" alt="Illustration of a recipe page layout" width="640" height="420">
+          <div class="project-content">
+            <h3>Recipe Page</h3>
+            <p>A long-form recipe article using sections, lists, metadata, and simple print styles.</p>
+            <ul class="tag-list">
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>Print styles</li>
+            </ul>
+            <div class="project-links">
+              <a href="../../02-recipe-page/solution/index.html">View project</a>
+              <span>Code link unavailable in this demo</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <img src="assets/project-focusflow.svg" alt="Illustration of a product landing page layout" width="640" height="420">
+          <div class="project-content">
+            <h3>FocusFlow Landing Page</h3>
+            <p>A fictional product page with navigation, cards, calls to action, and an honest demo form.</p>
+            <ul class="tag-list">
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>Flexbox</li>
+            </ul>
+            <div class="project-links">
+              <a href="../../03-product-landing-page/solution/index.html">View project</a>
+              <span>Code link unavailable in this demo</span>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section split-section" id="journey">
+      <div>
+        <p class="eyebrow">Journey</p>
+        <h2>A fictional learning timeline.</h2>
+      </div>
+      <ol class="timeline">
+        <li>
+          <h3>Started learning semantic HTML</h3>
+          <p>Practiced headings, landmarks, links, lists, and content structure.</p>
+        </li>
+        <li>
+          <h3>Built responsive CSS projects</h3>
+          <p>Explored spacing, typography, Flexbox, Grid, and mobile-first layouts.</p>
+        </li>
+        <li>
+          <h3>Began JavaScript fundamentals</h3>
+          <p>Started learning variables, functions, events, and DOM concepts.</p>
+        </li>
+      </ol>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div class="section-heading">
+        <p class="eyebrow">Contact</p>
+        <h2>Honest demo contact options.</h2>
+        <p>
+          This is a fictional portfolio. These links are demonstration
+          destinations and do not represent real personal profiles.
+        </p>
+      </div>
+      <div class="contact-card">
+        <a href="mailto:maya.chen@example.com">maya.chen@example.com</a>
+        <a href="https://example.com/maya-portfolio">Demo portfolio profile</a>
+        <a href="https://example.com/maya-code">Demo code profile</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <nav aria-label="Footer navigation">
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <p>&copy; 2026 Maya Chen demo portfolio. Fictional content for learning.</p>
+  </footer>
+</body>
+</html>

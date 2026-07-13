@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="420" viewBox="0 0 640 420" role="img" aria-labelledby="title desc">
+  <title id="title">FocusFlow landing page illustration</title>
+  <desc id="desc">A stylized landing page with a hero area, timer card, and feature cards.</desc>
+  <rect width="640" height="420" rx="28" fill="#e7f5ef"/>
+  <rect x="70" y="70" width="500" height="280" rx="24" fill="#ffffff" stroke="#cfe1da" stroke-width="6"/>
+  <rect x="110" y="112" width="160" height="24" rx="12" fill="#176b5b"/>
+  <rect x="110" y="160" width="210" height="16" rx="8" fill="#78948d"/>
+  <rect x="110" y="194" width="170" height="16" rx="8" fill="#cfe1da"/>
+  <circle cx="430" cy="160" r="58" fill="#d85f45"/>
+  <path d="M430 124v39l28 18" fill="none" stroke="#ffffff" stroke-width="10" stroke-linecap="round"/>
+  <rect x="110" y="260" width="120" height="48" rx="16" fill="#e7f5ef"/>
+  <rect x="260" y="260" width="120" height="48" rx="16" fill="#e7f5ef"/>
+  <rect x="410" y="260" width="120" height="48" rx="16" fill="#e7f5ef"/>
+</svg>
