@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz App Starter</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/app.js" defer></script>
+</head>
+<body>
+  <header class="page-header">
+    <p class="eyebrow">Project 07</p>
+    <h1>Frontend Foundations Quiz</h1>
+    <p>Practice arrays, objects, state, rendering, validation, scoring, and review screens.</p>
+  </header>
+
+  <main class="app-shell">
+    <section class="quiz-card" id="quiz-app" aria-labelledby="screen-title">
+      <div class="screen-heading" tabindex="-1">
+        <p class="eyebrow" id="screen-kicker">Start</p>
+        <h2 id="screen-title">Ready to test your frontend basics?</h2>
+      </div>
+
+      <div id="start-screen">
+        <p>This 10-question quiz covers HTML, accessibility, CSS, responsive design, and JavaScript fundamentals.</p>
+        <ul class="topic-list">
+          <li>Semantic HTML</li>
+          <li>CSS layout</li>
+          <li>DOM events</li>
+          <li>Safe updates</li>
+        </ul>
+        <button type="button" id="start-button">Start Quiz</button>
+      </div>
+
+      <div id="question-screen" hidden>
+        <div class="progress-row">
+          <p id="progress-text">Question 1 of 10</p>
+          <progress id="progress-bar" value="1" max="10">Question 1 of 10</progress>
+          <p id="score-text">Score: 0</p>
+        </div>
+
+        <p class="category-label" id="category-label">Category</p>
+        <form id="answer-form" novalidate>
+          <fieldset>
+            <legend id="question-text">Question text appears here.</legend>
+            <div class="choice-list" id="choice-list"></div>
+          </fieldset>
+          <p class="validation-message" id="validation-message" role="alert"></p>
+          <div class="button-row">
+            <button type="submit" id="submit-button">Submit Answer</button>
+            <button type="button" id="next-button" hidden>Next Question</button>
+          </div>
+        </form>
+
+        <section class="feedback-panel" id="feedback-panel" aria-labelledby="feedback-title" hidden>
+          <h3 id="feedback-title">Feedback</h3>
+          <p id="feedback-message"></p>
+          <p id="correct-answer-message"></p>
+          <p id="explanation-message"></p>
+        </section>
+      </div>
+
+      <div id="results-screen" hidden>
+        <p class="result-score" id="final-score">Score: 0 of 10</p>
+        <p id="performance-message"></p>
+        <section aria-labelledby="category-summary-title">
+          <h3 id="category-summary-title">Category summary</h3>
+          <ul class="summary-list" id="category-summary"></ul>
+        </section>
+        <div class="button-row">
+          <button type="button" id="review-button">Review Answers</button>
+          <button type="button" id="restart-button">Restart Quiz</button>
+        </div>
+      </div>
+
+      <div id="review-screen" hidden>
+        <div class="review-list" id="review-list"></div>
+        <div class="button-row">
+          <button type="button" id="return-results-button">Return to Results</button>
+          <button type="button" id="restart-review-button">Restart Quiz</button>
+        </div>
+      </div>
+
+      <p class="status-message" id="status-message" role="status" aria-live="polite">Quiz has not started yet.</p>
+    </section>
+  </main>
+</body>
+</html>
