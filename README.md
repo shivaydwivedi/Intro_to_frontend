@@ -32,7 +32,7 @@ The projects move from static semantic HTML to interactive apps that use browser
 | 03 | [Product Landing Page](projects/03-product-landing-page/) | Flexbox and page sections | Complete |
 | 04 | [Responsive Portfolio](projects/04-responsive-portfolio/) | CSS Grid and responsive layout | Complete |
 | 05 | [Counter App](projects/05-counter-app/) | JavaScript fundamentals | Complete |
-| 06 | Tip Calculator | Inputs, calculations, and UI feedback | Planned |
+| 06 | [Tip Calculator](projects/06-tip-calculator/) | Inputs, calculations, and UI feedback | Complete |
 | 07 | Quiz App | DOM manipulation and state | Planned |
 | 08 | To-do List | Forms, validation, and localStorage | Planned |
 | 09 | Weather App | Fetch API and async JavaScript | Planned |
@@ -87,7 +87,7 @@ Keeping these folders separate helps learners practice without accidentally rely
 
 ## Project Status
 
-Projects 01, 02, 03, 04, and 05 are complete. The remaining projects are currently Planned.
+Projects 01, 02, 03, 04, 05, and 06 are complete. The remaining projects are currently Planned.
 
 ## Contributing
 
