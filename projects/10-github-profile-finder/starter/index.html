@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GitHub Profile Finder Starter</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/app.js" defer></script>
+</head>
+<body>
+  <header class="page-header">
+    <p class="eyebrow">Project 10</p>
+    <h1>GitHub Profile Finder</h1>
+    <p>Practice public API requests, error handling, rate-limit awareness, filtering, sorting, and pagination.</p>
+  </header>
+
+  <main class="app-shell">
+    <section class="panel" aria-labelledby="search-title">
+      <h2 id="search-title">Find a GitHub profile</h2>
+      <form id="profile-form" novalidate>
+        <div class="field">
+          <label for="username-input">GitHub username</label>
+          <input id="username-input" name="username" type="search" maxlength="40" autocomplete="off" aria-describedby="username-help username-error" required>
+          <p id="username-help">Examples: octocat, github, microsoft. Do not include a token or password.</p>
+          <p class="field-error" id="username-error"></p>
+        </div>
+        <div class="button-row">
+          <button type="submit" id="search-button">Search</button>
+          <button type="button" id="refresh-button" disabled>Refresh</button>
+        </div>
+      </form>
+    </section>
+
+    <p class="status-message" id="app-status" role="status" aria-live="polite">Search for a username to load public GitHub data.</p>
+
+    <section class="panel" aria-labelledby="profile-title">
+      <h2 id="profile-title" tabindex="-1">Profile</h2>
+      <div id="profile-container">
+        <p class="empty-state">No profile loaded yet. Only public GitHub data will be displayed.</p>
+      </div>
+    </section>
+
+    <section class="panel" aria-labelledby="repositories-title">
+      <h2 id="repositories-title">Repositories</h2>
+      <div class="repo-toolbar">
+        <div class="field">
+          <label for="repo-search">Search loaded repositories</label>
+          <input id="repo-search" type="search" placeholder="Search by name or description" disabled>
+        </div>
+        <div class="field">
+          <label for="language-filter">Language</label>
+          <select id="language-filter" disabled>
+            <option value="all">All languages</option>
+          </select>
+        </div>
+        <div class="field">
+          <label for="sort-select">Sort</label>
+          <select id="sort-select" disabled>
+            <option value="updated">Recently updated</option>
+            <option value="stars">Most stars</option>
+            <option value="forks">Most forks</option>
+            <option value="name">Name A-Z</option>
+          </select>
+        </div>
+      </div>
+      <p id="repo-summary">Repositories will appear after a profile loads.</p>
+      <ul class="repo-list" id="repo-list"></ul>
+      <div class="pagination" id="pagination"></div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>Data from the <a href="https://docs.github.com/en/rest">GitHub REST API</a>. This educational project is not affiliated with or endorsed by GitHub.</p>
+  </footer>
+</body>
+</html>
