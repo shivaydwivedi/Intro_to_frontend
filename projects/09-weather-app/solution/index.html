@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather App | Open-Meteo Forecast Dashboard</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/app.js" defer></script>
+</head>
+<body>
+  <header class="page-header">
+    <p class="eyebrow">Project 09</p>
+    <h1>Weather App</h1>
+    <p>Search for forecast weather data, compare matching places, switch units, refresh conditions, or request your browser location when you choose.</p>
+  </header>
+
+  <main class="app-shell">
+    <section class="panel search-panel" aria-labelledby="search-title">
+      <h2 id="search-title">Find a location</h2>
+      <form id="search-form" novalidate>
+        <div class="field">
+          <label for="location-search">City or place <span class="required-text">(required)</span></label>
+          <input id="location-search" name="location" type="search" maxlength="100" required aria-describedby="search-help search-error">
+          <p id="search-help">Use at least two characters. Live data requires an internet connection.</p>
+          <p class="field-error" id="search-error"></p>
+        </div>
+        <div class="button-row">
+          <button type="submit" id="search-button">Search</button>
+          <button type="button" id="location-button">Use My Location</button>
+        </div>
+      </form>
+    </section>
+
+    <section class="panel units-panel" aria-labelledby="units-title">
+      <h2 id="units-title">Units</h2>
+      <fieldset class="unit-fieldset">
+        <legend>Choose units</legend>
+        <label>
+          <input type="radio" name="units" value="metric" checked>
+          Metric: C and km/h
+        </label>
+        <label>
+          <input type="radio" name="units" value="imperial">
+          Imperial: F and mph
+        </label>
+      </fieldset>
+    </section>
+
+    <p class="status-message" id="app-status" role="status" aria-live="polite">Search for a city or use your current location to load forecast data.</p>
+
+    <section class="panel" aria-labelledby="results-title">
+      <h2 id="results-title" tabindex="-1">Location results</h2>
+      <p id="results-summary">Matching places will appear here.</p>
+      <div class="result-list" id="location-results"></div>
+    </section>
+
+    <section class="panel dashboard" aria-labelledby="weather-title">
+      <div class="dashboard-heading">
+        <div>
+          <h2 id="weather-title" tabindex="-1">Weather data</h2>
+          <p id="weather-subtitle">No location selected yet.</p>
+        </div>
+        <button type="button" id="refresh-button" disabled>Refresh</button>
+      </div>
+
+      <div class="current-weather" id="current-weather">
+        <p class="empty-state">Choose a location to see current forecast conditions.</p>
+      </div>
+
+      <section aria-labelledby="forecast-title">
+        <h3 id="forecast-title">Five-day forecast</h3>
+        <ul class="forecast-list" id="forecast-list"></ul>
+      </section>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>Weather data and geocoding by <a href="https://open-meteo.com/">Open-Meteo</a>. Forecast information depends on internet access and Open-Meteo API availability.</p>
+  </footer>
+</body>
+</html>

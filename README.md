@@ -33,10 +33,10 @@ The projects move from static semantic HTML to interactive apps that use browser
 | 04 | [Responsive Portfolio](projects/04-responsive-portfolio/) | CSS Grid and responsive layout | Complete |
 | 05 | [Counter App](projects/05-counter-app/) | JavaScript fundamentals | Complete |
 | 06 | [Tip Calculator](projects/06-tip-calculator/) | Inputs, calculations, and UI feedback | Complete |
-| 07 | Quiz App | DOM manipulation and state | Planned |
-| 08 | To-do List | Forms, validation, and localStorage | Planned |
-| 09 | Weather App | Fetch API and async JavaScript | Planned |
-| 10 | GitHub Profile Finder | API data, loading states, and errors | Planned |
+| 07 | [Quiz App](projects/07-quiz-app/) | DOM manipulation and state | Complete |
+| 08 | [To-do List](projects/08-todo-list/) | Forms, validation, and localStorage | Complete |
+| 09 | [Weather App](projects/09-weather-app/) | Fetch API and async JavaScript | Complete |
+| 10 | [GitHub Profile Finder](projects/10-github-profile-finder/) | API data, loading states, and errors | Complete |
 
 See [ROADMAP.md](ROADMAP.md) for the full project sequence, objectives, stretch goals, and final review milestone.
 
@@ -87,7 +87,7 @@ Keeping these folders separate helps learners practice without accidentally rely
 
 ## Project Status
 
-Projects 01, 02, 03, 04, 05, and 06 are complete. The remaining projects are currently Planned.
+Projects 01, 02, 03, 04, 05, 06, 07, 08, 09, and 10 are complete.
 
 ## Contributing
 

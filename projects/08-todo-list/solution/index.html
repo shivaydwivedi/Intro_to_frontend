@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>To-do List | localStorage Task Manager</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/app.js" defer></script>
+</head>
+<body>
+  <header class="page-header">
+    <p class="eyebrow">Project 08</p>
+    <h1>To-do List</h1>
+    <p>Create, filter, edit, complete, delete, and persist browser-local tasks.</p>
+  </header>
+
+  <main class="app-shell">
+    <section class="panel" aria-labelledby="add-task-title">
+      <h2 id="add-task-title">Add a task</h2>
+      <form id="task-form" novalidate>
+        <div class="field">
+          <label for="task-title">Task title <span class="required-text">(required)</span></label>
+          <input id="task-title" name="title" type="text" maxlength="100" required aria-describedby="title-help title-error">
+          <p id="title-help">Use 2 to 100 characters. Internal spacing is preserved.</p>
+          <p class="field-error" id="title-error"></p>
+        </div>
+
+        <div class="field-row">
+          <div class="field">
+            <label for="task-priority">Priority</label>
+            <select id="task-priority" name="priority">
+              <option value="low">Low</option>
+              <option value="medium" selected>Medium</option>
+              <option value="high">High</option>
+            </select>
+          </div>
+
+          <div class="field">
+            <label for="task-due-date">Due date</label>
+            <input id="task-due-date" name="dueDate" type="date">
+          </div>
+        </div>
+
+        <button type="submit">Add Task</button>
+      </form>
+    </section>
+
+    <section class="panel" aria-labelledby="filters-title">
+      <h2 id="filters-title">Find tasks</h2>
+      <div class="toolbar">
+        <div class="field">
+          <label for="status-filter">Status</label>
+          <select id="status-filter">
+            <option value="all">All</option>
+            <option value="active">Active</option>
+            <option value="completed">Completed</option>
+          </select>
+        </div>
+
+        <div class="field">
+          <label for="priority-filter">Priority</label>
+          <select id="priority-filter">
+            <option value="all">All priorities</option>
+            <option value="high">High</option>
+            <option value="medium">Medium</option>
+            <option value="low">Low</option>
+          </select>
+        </div>
+
+        <div class="field">
+          <label for="search-input">Search title</label>
+          <input id="search-input" type="search" placeholder="Search tasks">
+        </div>
+
+        <div class="field">
+          <label for="sort-select">Sort</label>
+          <select id="sort-select">
+            <option value="newest">Newest first</option>
+            <option value="oldest">Oldest first</option>
+            <option value="due-date">Due date</option>
+            <option value="priority">Priority</option>
+          </select>
+        </div>
+      </div>
+      <p class="active-filters" id="active-filters">Active filters: All tasks, all priorities, no search.</p>
+      <div class="button-row">
+        <button type="button" id="clear-filters-button">Clear Filters</button>
+        <button type="button" id="clear-completed-button">Clear Completed</button>
+      </div>
+    </section>
+
+    <section class="panel" aria-labelledby="task-list-title">
+      <div class="list-heading">
+        <h2 id="task-list-title">Tasks</h2>
+        <p id="counts-summary">0 total, 0 active, 0 completed, 0 visible.</p>
+      </div>
+      <p class="status-message" id="status-message" role="status" aria-live="polite">Ready to add your first task.</p>
+      <div class="undo-area" id="undo-area"></div>
+      <p class="empty-state" id="empty-state">No tasks yet. Add one above.</p>
+      <ul class="task-list" id="task-list" tabindex="-1"></ul>
+    </section>
+  </main>
+</body>
+</html>
