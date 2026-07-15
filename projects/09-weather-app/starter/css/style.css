@@ -1,0 +1,200 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+:root {
+  --color-ink: #1d2630;
+  --color-muted: #5c6875;
+  --color-page: #f3f6f8;
+  --color-panel: #ffffff;
+  --color-line: #d6dee6;
+  --color-soft: #eaf4f8;
+  --color-primary: #28657a;
+  --color-primary-dark: #1d4d5d;
+  --color-warning: #98621b;
+  --color-error: #9f3412;
+  --shadow-panel: 0 1rem 2rem rgba(29, 38, 48, 0.1);
+  --radius: 0.85rem;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.5;
+  color: var(--color-ink);
+  background: var(--color-page);
+}
+
+button,
+input {
+  font: inherit;
+}
+
+button {
+  min-height: 2.75rem;
+  border: 2px solid var(--color-primary);
+  border-radius: 999px;
+  padding: 0.7rem 1rem;
+  color: #ffffff;
+  background: var(--color-primary);
+  font-weight: 800;
+  cursor: pointer;
+}
+
+button:hover:not(:disabled) {
+  background: var(--color-primary-dark);
+  border-color: var(--color-primary-dark);
+}
+
+button:disabled {
+  cursor: not-allowed;
+  color: var(--color-muted);
+  background: #dce5eb;
+  border-style: dashed;
+}
+
+button:focus-visible,
+input:focus-visible,
+a:focus-visible,
+#weather-title:focus {
+  outline: 3px solid var(--color-warning);
+  outline-offset: 4px;
+}
+
+.page-header,
+.app-shell,
+.site-footer {
+  width: min(100% - 2rem, 72rem);
+  margin-inline: auto;
+}
+
+.page-header {
+  padding: 3rem 0 1.5rem;
+}
+
+.page-header p {
+  max-width: 46rem;
+  color: var(--color-muted);
+}
+
+.eyebrow {
+  margin: 0 0 0.5rem;
+  color: var(--color-primary-dark);
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin-top: 0;
+}
+
+h1 {
+  margin-bottom: 0.6rem;
+  font-size: clamp(2.3rem, 8vw, 4rem);
+  line-height: 1;
+}
+
+.app-shell {
+  display: grid;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.panel {
+  display: grid;
+  gap: 1rem;
+  padding: 1rem;
+  border: 1px solid var(--color-line);
+  border-radius: var(--radius);
+  background: var(--color-panel);
+  box-shadow: var(--shadow-panel);
+}
+
+.field,
+form {
+  display: grid;
+  gap: 0.5rem;
+}
+
+label {
+  font-weight: 800;
+}
+
+input[type="search"] {
+  width: 100%;
+  min-height: 2.75rem;
+  border: 2px solid var(--color-line);
+  border-radius: 0.7rem;
+  padding: 0.6rem 0.75rem;
+}
+
+.field-error {
+  color: var(--color-error);
+  font-weight: 800;
+}
+
+.button-row,
+.unit-fieldset {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+.unit-fieldset {
+  border: 1px solid var(--color-line);
+  border-radius: var(--radius);
+  padding: 1rem;
+}
+
+.status-message,
+.empty-state {
+  padding: 0.85rem 1rem;
+  border-left: 4px solid var(--color-primary);
+  border-radius: 0.75rem;
+  background: var(--color-soft);
+}
+
+.result-list,
+.forecast-list {
+  display: grid;
+  gap: 0.75rem;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.dashboard-heading {
+  display: grid;
+  gap: 0.75rem;
+}
+
+.site-footer {
+  padding-bottom: 2rem;
+  color: var(--color-muted);
+}
+
+@media (min-width: 48rem) {
+  .panel {
+    padding: 1.5rem;
+  }
+
+  .dashboard-heading {
+    grid-template-columns: minmax(0, 1fr) auto;
+    align-items: start;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    scroll-behavior: auto !important;
+  }
+}
+
+/* TODO: Add result cards, current-weather details, forecast cards, and responsive polish. */
