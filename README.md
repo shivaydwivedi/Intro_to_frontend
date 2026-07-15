@@ -59,7 +59,6 @@ See [ROADMAP.md](ROADMAP.md) for the full project sequence, objectives, stretch 
 |   +-- project-previews/
 +-- docs/
 +-- projects/
-+-- AGENTS.md
 +-- CONTRIBUTING.md
 +-- LICENSE
 +-- README.md
